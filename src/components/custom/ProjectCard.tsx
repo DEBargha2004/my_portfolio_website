@@ -132,11 +132,13 @@ const ProjectCard = ({ project }: { index?: number; project: Project }) => {
             <TooltipProvider key={index} delayDuration={0.1}>
               <Tooltip>
                 <TooltipTrigger>
-                  <Image
-                    src={tech.image}
-                    alt={tech.title}
-                    className='h-6 w-fit'
-                  />
+                  <Link href={tech.link}>
+                    <Image
+                      src={tech.image}
+                      alt={tech.title}
+                      className='h-6 w-fit'
+                    />
+                  </Link>
                 </TooltipTrigger>
                 <TooltipContent>{tech.title}</TooltipContent>
               </Tooltip>

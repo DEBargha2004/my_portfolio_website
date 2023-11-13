@@ -5,7 +5,7 @@ import tailwind from '../../public/tech/tailwind-css.svg'
 import clerk from '../../public/tech/clerk.svg'
 import framer from '../../public/tech/framer-motion.svg'
 import react from '../../public/tech/react.svg'
-import radiax from '../../public/tech/radix-ui.svg'
+import radix from '../../public/tech/radix-ui.svg'
 import zod from '../../public/tech/zod.svg'
 import typescript from '../../public/tech/typescript.svg'
 import stripe from '../../public/tech/stripe.svg'
@@ -16,7 +16,7 @@ import mui from '../../public/tech/material-ui.svg'
 import node from '../../public/tech/nodejs.svg'
 import mysql from '../../public/tech/mysql.svg'
 import openai from '../../public/tech/openai.svg'
-import rfh from '../../public/tech/rfh.png'
+import rhf from '../../public/tech/rhf.png'
 import rrd from '../../public/tech/react-router-dom.svg'
 import formik from '../../public/tech/formik.png'
 import express from '../../public/tech/express.svg'
@@ -43,127 +43,157 @@ import chatgpt from '../../public/tech/chatgpt.svg'
 export const techs = {
   next: {
     image: nextjs,
-    title: 'Next JS'
+    title: 'Next JS',
+    link: 'https://nextjs.org/'
   },
   react: {
     image: react,
-    title: 'React JS'
+    title: 'React JS',
+    link: 'https://react.dev/'
   },
   algolia: {
     image: algolia,
-    title: 'Algolia'
+    title: 'Algolia',
+    link: 'https://www.algolia.com/'
   },
   firebase: {
     image: firebase,
-    title: 'Firebase'
+    title: 'Firebase',
+    link: 'https://firebase.google.com/'
   },
   tailwind: {
     image: tailwind,
-    title: 'Tailwind CSS'
+    title: 'Tailwind CSS',
+    link: 'https://tailwindcss.com/'
   },
   clerk: {
     image: clerk,
-    title: 'Clerk'
+    title: 'Clerk',
+    link: 'https://clerk.com/'
   },
   framer: {
     image: framer,
-    title: 'Framer Motion'
+    title: 'Framer Motion',
+    link: 'https://www.framer.com/motion/'
   },
-  radiax: {
-    image: radiax,
-    title: 'Radiax UI'
+  radix: {
+    image: radix,
+    title: 'Radix UI',
+    link: 'https://www.radix-ui.com/'
   },
   zod: {
     image: zod,
-    title: 'Zod'
+    title: 'Zod',
+    link: 'https://zod.dev/'
   },
-  rfh: {
-    image: rfh,
-    title: 'React Form Hook'
+  rhf: {
+    image: rhf,
+    title: 'React Hook Form',
+    link: 'https://react-hook-form.com/'
   },
   typescript: {
     image: typescript,
-    title: 'Typescript'
+    title: 'Typescript',
+    link: 'https://www.typescriptlang.org/'
   },
   stripe: {
     image: stripe,
-    title: 'Stripe'
+    title: 'Stripe',
+    link: 'https://stripe.com/'
   },
   hf: {
     image: hf,
-    title: 'Hugging Face'
+    title: 'Hugging Face',
+    link: 'https://huggingface.co/'
   },
   pinecone: {
     image: pinecone,
-    title: 'Pinecone'
+    title: 'Pinecone',
+    link: 'https://www.pinecone.io/'
   },
   langchain: {
     image: langchain,
-    title: 'Langchain'
+    title: 'Langchain',
+    link: 'https://www.langchain.com/'
   },
   mui: {
     image: mui,
-    title: 'Material UI'
+    title: 'Material UI',
+    link: 'https://mui.com/'
   },
   node: {
     image: node,
-    title: 'Node JS'
+    title: 'Node JS',
+    link: 'https://nodejs.org'
   },
   mysql: {
     image: mysql,
-    title: 'MySQL'
+    title: 'MySQL',
+    link: 'https://www.mysql.com/'
   },
   openai: {
     image: openai,
-    title: 'OpenAI'
+    title: 'OpenAI',
+    link: 'https://openai.com/'
   },
   rrd: {
     image: rrd,
-    title: 'React Router Dom'
+    title: 'React Router Dom',
+    link: 'https://reactrouter.com/'
   },
   formik: {
     image: formik,
-    title: 'Formik'
+    title: 'Formik',
+    link: 'https://formik.org/'
   },
   express: {
     image: express,
-    title: 'Express'
+    title: 'Express',
+    link: 'https://expressjs.com/'
   },
   nodemailer: {
     image: nodemailer,
-    title: 'Node Mailer'
+    title: 'Node Mailer',
+    link: 'https://nodemailer.com/'
   },
   vite: {
     image: vite,
-    title: 'Vite'
+    title: 'Vite',
+    link: 'https://vitejs.dev/'
   },
   nivo: {
     image: nivo,
-    title: 'Nivo'
+    title: 'Nivo',
+    link: 'https://nivo.rocks/'
   },
   netlify: {
     image: netlify,
-    title: 'Netlify'
+    title: 'Netlify',
+    link: 'https://www.netlify.com/'
   },
   vercel: {
     image: vercel,
-    title: 'Vercel'
+    title: 'Vercel',
+    link: 'https://vercel.com/'
   },
   three: {
     image: three,
-    title: 'Three JS'
+    title: 'Three JS',
+    link: 'https://threejs.org/'
   },
   cra: {
     image: cra,
-    title: 'Create React App'
+    title: 'Create React App',
+    link: 'https://create-react-app.dev/'
   },
   shadcn: {
     image: shadcn,
-    title: 'Shadcn UI'
+    title: 'Shadcn UI',
+    link: 'https://ui.shadcn.com/'
   }
 }
 
-export const skills: { image: any; title: string }[] = [
+export const skills: { image: any; title: string; link?: string }[] = [
   {
     image: html,
     title: 'HTML'
@@ -178,108 +208,57 @@ export const skills: { image: any; title: string }[] = [
   },
   {
     image: git,
-    title: 'Git'
+    title: 'Git',
+    link: 'https://git-scm.com/'
   },
   {
     image: gitbash,
-    title: 'Gitbash'
+    title: 'Gitbash',
+    link: 'https://git-scm.com/'
   },
   {
     image: github,
-    title: 'Github'
+    title: 'Github',
+    link: 'https://github.com/'
   },
-  {
-    image: nextjs,
-    title: 'Next JS'
-  },
-  {
-    image: react,
-    title: 'React JS'
-  },
-  {
-    image: firebase,
-    title: 'Firebase'
-  },
-  {
-    image: tailwind,
-    title: 'Tailwind CSS'
-  },
+  techs.next,
+  techs.react,
+  techs.firebase,
+  techs.tailwind,
   {
     image: clerkLogo,
-    title: 'Clerk'
+    title: 'Clerk',
+    link: 'https://clerk.com/'
   },
-  {
-    image: shadcn,
-    title: 'Shadcn UI'
-  },
-  {
-    image: framer,
-    title: 'Framer Motion'
-  },
-  {
-    image: rfh,
-    title: 'React Form Hook'
-  },
-  {
-    image: zod,
-    title: 'Zod'
-  },
-  {
-    image: typescript,
-    title: 'Typescript'
-  },
-
-  {
-    image: langchain,
-    title: 'Langchain'
-  },
-  {
-    image: pinecone,
-    title: 'Pinecone'
-  },
+  techs.shadcn,
+  techs.framer,
+  techs.rhf,
+  techs.zod,
+  techs.typescript,
+  techs.langchain,
+  techs.pinecone,
   {
     image: chatgpt,
-    title: 'ChatGPT'
+    title: 'ChatGPT',
+    link: ''
   },
-  {
-    image: mui,
-    title: 'Material UI'
-  },
-  {
-    image: node,
-    title: 'Node JS'
-  },
-  {
-    image: mysql,
-    title: 'MySQL'
-  },
-  {
-    image: openai,
-    title: 'OpenAI'
-  },
-  {
-    image: rrd,
-    title: 'React Router Dom'
-  },
-  {
-    image: formik,
-    title: 'Formik'
-  },
-  {
-    image: express,
-    title: 'Express'
-  },
-  {
-    image: three,
-    title: 'Three JS'
-  },
+  techs.mui,
+  techs.mui,
+  techs.mui,
+  techs.openai,
+  techs.rrd,
+  techs.formik,
+  techs.express,
+  techs.three,
   {
     image: vscode,
-    title: 'VS Code'
+    title: 'VS Code',
+    link: 'https://code.visualstudio.com/'
   },
   {
     image: postman,
-    title: 'Postman'
+    title: 'Postman',
+    link: 'https://www.postman.com/'
   },
   {
     image: c,

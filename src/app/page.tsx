@@ -9,6 +9,7 @@ import { skills } from '@/constants/techs'
 import Image from 'next/image'
 import SkillCard from '@/components/custom/SkillCard'
 import ContactMe from '@/components/custom/ContactMe'
+import Link from 'next/link'
 
 export default function Home () {
   return (
@@ -61,7 +62,9 @@ export default function Home () {
                   key={skill.title}
                   className='bg-muted h-[90px] w-[90px] flex justify-center items-center rounded-full'
                 >
-                  <Image src={skill.image} alt={skill.title} height={40} />
+                  <Link href={skill.link ?? ''}>
+                    <Image src={skill.image} alt={skill.title} height={40} />
+                  </Link>
                 </div>
               </SkillCard>
             </AnimateUpWhileInView>

@@ -6,5 +6,5 @@ export type Project = {
   website: string
   description: string
   images: StaticImageData[]
-  techStack?: { image: string; title: string }[]
+  techStack?: { image: string; title: string; link: string }[]
 }
