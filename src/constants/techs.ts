@@ -243,8 +243,8 @@ export const skills: { image: any; title: string; link?: string }[] = [
     link: ''
   },
   techs.mui,
-  techs.mui,
-  techs.mui,
+  techs.node,
+  techs.mysql,
   techs.openai,
   techs.rrd,
   techs.formik,
@@ -253,15 +253,16 @@ export const skills: { image: any; title: string; link?: string }[] = [
   {
     image: vscode,
     title: 'VS Code',
-    link: 'https://code.visualstudio.com/'
+    link: ''
   },
   {
     image: postman,
     title: 'Postman',
-    link: 'https://www.postman.com/'
+    link: ''
   },
   {
     image: c,
-    title: 'C'
+    title: 'C',
+    link: ''
   }
 ]
