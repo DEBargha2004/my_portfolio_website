@@ -8,7 +8,6 @@ const resend = new Resend(process.env.RESEND_API_KEY)
 
 export async function onSubmit (e: FieldValues) {
   try {
-    throw new Error('Intentional')
     await resend.emails.send({
       from: 'onboarding@resend.dev',
       to: 'debarghasaha16@gmail.com',
@@ -18,8 +17,6 @@ export async function onSubmit (e: FieldValues) {
         <p>${e.body}</p>
         `
     })
-
-    console.log('submitted')
 
     return { status: true }
   } catch (error) {
