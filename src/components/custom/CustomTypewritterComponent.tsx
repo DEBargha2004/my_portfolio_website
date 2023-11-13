@@ -13,13 +13,13 @@ const CustomTypewriterComponent = () => {
         }}
         onInit={typewriter => {
           typewriter
-            .typeString('A_React_JS_Developer.tsx')
+            .typeString('A React JS Developer')
             .pauseFor(2000)
-            .deleteChars(22)
-            .typeString('Problem_Solver.ts')
+            .deleteChars(18)
+            .typeString('Problem Solver')
             .pauseFor(2000)
-            .deleteChars(17)
-            .typeString('Student.js')
+            .deleteChars(14)
+            .typeString('Student')
             .pauseFor(2000)
             .start()
         }}
