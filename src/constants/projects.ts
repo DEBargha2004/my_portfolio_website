@@ -130,7 +130,7 @@ export const projects: Project[] = [
       techs.shadcn,
       techs.radix,
       techs.tailwind,
-      techs.rfh,
+      techs.rhf,
       techs.zod,
       techs.vercel
     ]
@@ -161,7 +161,7 @@ export const projects: Project[] = [
       techs.shadcn,
       techs.radix,
       techs.tailwind,
-      techs.rfh,
+      techs.rhf,
       techs.zod,
       techs.vercel
     ]
