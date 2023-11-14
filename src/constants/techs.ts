@@ -206,6 +206,37 @@ export const skills: { image: any; title: string; link?: string }[] = [
     image: js,
     title: 'JavaScript'
   },
+  techs.next,
+  techs.react,
+  techs.tailwind,
+  techs.framer,
+  techs.zod,
+  techs.typescript,
+  techs.mui,
+  techs.three,
+  techs.firebase,
+  techs.express,
+  techs.node,
+  // {
+  //   image: clerkLogo,
+  //   title: 'Clerk',
+  //   link: 'https://clerk.com/'
+  // },
+  // techs.shadcn,
+  // techs.rhf,
+
+  techs.langchain,
+  techs.pinecone,
+  {
+    image: chatgpt,
+    title: 'ChatGPT',
+    link: ''
+  },
+
+  techs.mysql,
+  // techs.openai,
+  // techs.rrd,
+  // techs.formik,
   {
     image: git,
     title: 'Git',
@@ -221,35 +252,6 @@ export const skills: { image: any; title: string; link?: string }[] = [
     title: 'Github',
     link: 'https://github.com/'
   },
-  techs.next,
-  techs.react,
-  techs.firebase,
-  techs.tailwind,
-  {
-    image: clerkLogo,
-    title: 'Clerk',
-    link: 'https://clerk.com/'
-  },
-  techs.shadcn,
-  techs.framer,
-  techs.rhf,
-  techs.zod,
-  techs.typescript,
-  techs.langchain,
-  techs.pinecone,
-  {
-    image: chatgpt,
-    title: 'ChatGPT',
-    link: ''
-  },
-  techs.mui,
-  techs.node,
-  techs.mysql,
-  techs.openai,
-  techs.rrd,
-  techs.formik,
-  techs.express,
-  techs.three,
   {
     image: vscode,
     title: 'VS Code',

@@ -132,7 +132,7 @@ const ProjectCard = ({ project }: { index?: number; project: Project }) => {
             <TooltipProvider key={index} delayDuration={0.1}>
               <Tooltip>
                 <TooltipTrigger>
-                  <Link href={tech.link}>
+                  <Link href={tech.link} target='_blank'>
                     <Image
                       src={tech.image}
                       alt={tech.title}
@@ -155,12 +155,14 @@ const ProjectCard = ({ project }: { index?: number; project: Project }) => {
         <Link
           href={project.github}
           className={project.github ? 'opacity-100' : 'opacity-50'}
+          target='_blank'
         >
           <Github className='cursor-pointer' />
         </Link>
         <Link
           href={project.website}
           className={project.website ? 'opacity-100' : 'opacity-50'}
+          target='_blank'
         >
           <Eye className='cursor-pointer' />
         </Link>

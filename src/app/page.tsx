@@ -62,7 +62,10 @@ export default function Home () {
                   key={skill.title}
                   className='bg-muted h-[90px] w-[90px] flex justify-center items-center rounded-full'
                 >
-                  <Link href={skill.link ?? ''}>
+                  <Link
+                    href={skill.link ?? ''}
+                    target={skill.link ? '_blank' : '_self'}
+                  >
                     <Image src={skill.image} alt={skill.title} height={40} />
                   </Link>
                 </div>
