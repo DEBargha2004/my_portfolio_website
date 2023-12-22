@@ -12,9 +12,8 @@ import Testimonials from '@/components/custom/Testimonials'
 
 export default function Home () {
   return (
-    <main className=''>
-      {/* <SideNav /> */}
-      <section className='flex flex-col-reverse md:flex-row items-center justify-evenly gap-4 py-10'>
+    <main className='main-section'>
+      <section className='flex flex-col-reverse md:flex-row items-center justify-evenly gap-4 h-screen'>
         <div className='lg:text-5xl md:text-4xl text-3xl md:w-1/2 flex flex-col items-center justify-between text-center'>
           <h1 className='mb-2'>Hi I am</h1>
           <UnderLineAnimationtext className='bg-clip-text font-semibold text-transparent bg-gradient-to-r from-pink-200 to-pink-500'>
@@ -28,8 +27,8 @@ export default function Home () {
           <Profile />
         </div>
       </section>
-      <section className='my-[150px] px-5'>
-        <AnimateUpWhileInView className='lg:text-5xl md:text-4xl text-3xl mb-[100px] text-center flex justify-center items-center'>
+      <section className='my-[150px] px-5 '>
+        <AnimateUpWhileInView className='lg:text-5xl md:text-4xl text-3xl mb-[100px] text-center flex justify-center items-center h-full w-full'>
           <UnderLineAnimationtext className=''>
             <h1>
               My Creative <span className='text-[#ee2995b4]'>Portfolio </span>
@@ -45,8 +44,8 @@ export default function Home () {
           ))}
         </div>
       </section>
-      <section className='my-[150px] px-5'>
-        <AnimateUpWhileInView className='text-5xl mb-[80px] flex justify-center items-center'>
+      <section className='my-[150px] px-5  h-screen flex flex-col justify-start items-center'>
+        <AnimateUpWhileInView className='text-5xl mb-[80px] flex justify-center items-center '>
           <UnderLineAnimationtext>
             <h1>
               My <span className='text-[#ee2995b4]'>Skills</span>
@@ -77,7 +76,7 @@ export default function Home () {
           ))}
         </div>
       </section>
-      <section className='my-[150px] px-5'>
+      <section className='my-[150px] px-5  h-screen'>
         <AnimateUpWhileInView className='text-5xl mb-[50px] flex justify-center items-center'>
           <UnderLineAnimationtext>
             <h1>
@@ -87,7 +86,7 @@ export default function Home () {
         </AnimateUpWhileInView>
         <Testimonials />
       </section>
-      <section className='my-[150px] px-5'>
+      <section className='mt-[150px] px-5 h-screen'>
         <AnimateUpWhileInView className='text-5xl mb-[50px] flex justify-center items-center'>
           <UnderLineAnimationtext>
             <h1>

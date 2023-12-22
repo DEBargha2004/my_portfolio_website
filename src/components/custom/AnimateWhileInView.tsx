@@ -30,7 +30,7 @@ const AnimateUpWhileInView = ({
         delay: delay || 0
       }}
       viewport={{ once: true, amount: 0.5 }}
-      className={cn('h-full w-full', className)}
+      className={cn('', className)}
     >
       {children}
     </motion.div>
