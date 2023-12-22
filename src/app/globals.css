@@ -122,3 +122,26 @@ body {
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
+
+h1::selection {
+  background-color: rgb(255, 52, 86);
+}
+
+p::selection {
+  background-color: rgb(255, 52, 86);
+  color: white;
+}
+
+span::selection {
+  background-color: rgb(255, 52, 86);
+  color: white;
+}
+
+h1::selection {
+  background-color: rgb(255, 52, 86);
+  color: white;
+}
+
+.testimonials::-webkit-scrollbar {
+  display: none;
+}

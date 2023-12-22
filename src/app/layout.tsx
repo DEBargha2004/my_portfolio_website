@@ -5,7 +5,7 @@ import { ThemeProvider } from '@/components/other/theme-provider'
 import Navbar from '@/components/custom/Navbar'
 import { cn } from '@/lib/utils'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin', 'latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',

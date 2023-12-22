@@ -29,6 +29,7 @@ const AnimateUpWhileInView = ({
         //@ts-ignore
         delay: delay || 0
       }}
+      viewport={{ once: true, amount: 0.5 }}
       className={cn('h-full w-full', className)}
     >
       {children}

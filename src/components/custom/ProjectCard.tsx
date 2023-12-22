@@ -54,7 +54,7 @@ const ProjectCard = ({ project }: { index?: number; project: Project }) => {
 
   return (
     <div
-      className='relative h-full bg-accent rounded-md z-10'
+      className='relative h-full bg-accent rounded-md z-10 '
       onMouseEnter={() => setShowTopBar(true)}
       onMouseLeave={() => setShowTopBar(false)}
       onClick={e => {
@@ -69,7 +69,7 @@ const ProjectCard = ({ project }: { index?: number; project: Project }) => {
       }}
     >
       <div className='p-2 bg-accent h-full rounded-md flex flex-col justify-start items-center text-center gap-4'>
-        <div className='relative overflow-hidden w-full aspect-[40/19] rounded'>
+        <div className='relative overflow-hidden w-full aspect-[40/19] rounded  transition-all'>
           <AnimatePresence initial={false} custom={direction}>
             <motion.img
               key={page}
@@ -132,13 +132,13 @@ const ProjectCard = ({ project }: { index?: number; project: Project }) => {
             <TooltipProvider key={index} delayDuration={0.1}>
               <Tooltip>
                 <TooltipTrigger>
-                  <Link href={tech.link} target='_blank'>
-                    <Image
-                      src={tech.image}
-                      alt={tech.title}
-                      className='h-6 w-fit'
-                    />
-                  </Link>
+                  {/* <Link href={tech.link} target='_blank'> */}
+                  <Image
+                    src={tech.image}
+                    alt={tech.title}
+                    className='h-6 w-fit'
+                  />
+                  {/* </Link> */}
                 </TooltipTrigger>
                 <TooltipContent>{tech.title}</TooltipContent>
               </Tooltip>
