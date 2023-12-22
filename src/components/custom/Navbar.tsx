@@ -4,7 +4,6 @@ import Link from 'next/link'
 import insta from '../../../public/instagram.png'
 
 const ThemeToggler = dynamic(() => import('./ThemeToggler'), { ssr: false })
-const Cursor = dynamic(() => import('./Cursor'), { ssr: false })
 
 const Navbar = () => {
   return (
