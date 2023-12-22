@@ -13,8 +13,8 @@ import Testimonials from '@/components/custom/Testimonials'
 export default function Home () {
   return (
     <main className='main-section'>
-      <section className='flex flex-col-reverse md:flex-row items-center justify-evenly gap-4 h-screen'>
-        <div className='lg:text-5xl md:text-4xl text-3xl md:w-1/2 flex flex-col items-center justify-between text-center'>
+      <section className='flex flex-col-reverse md:flex-row items-center justify-center gap-4 min-h-screen'>
+        <div className='lg:text-5xl mt-10 md:text-4xl text-3xl md:w-1/2 flex flex-col items-center justify-between text-center'>
           <h1 className='mb-2'>Hi I am</h1>
           <UnderLineAnimationtext className='bg-clip-text font-semibold text-transparent bg-gradient-to-r from-pink-200 to-pink-500'>
             <h1>Debargha Saha</h1>
@@ -44,7 +44,7 @@ export default function Home () {
           ))}
         </div>
       </section>
-      <section className='my-[150px] px-5  h-screen flex flex-col justify-start items-center'>
+      <section className='my-[150px] px-5  min-h-screen flex flex-col justify-start items-center'>
         <AnimateUpWhileInView className='text-5xl mb-[80px] flex justify-center items-center '>
           <UnderLineAnimationtext>
             <h1>
@@ -76,7 +76,7 @@ export default function Home () {
           ))}
         </div>
       </section>
-      <section className='my-[150px] px-5  h-screen'>
+      <section className='my-[150px] px-5 min-h-screen'>
         <AnimateUpWhileInView className='text-5xl mb-[50px] flex justify-center items-center'>
           <UnderLineAnimationtext>
             <h1>
@@ -86,7 +86,7 @@ export default function Home () {
         </AnimateUpWhileInView>
         <Testimonials />
       </section>
-      <section className='mt-[150px] px-5 h-screen'>
+      <section className='my-[150px] px-5'>
         <AnimateUpWhileInView className='text-5xl mb-[50px] flex justify-center items-center'>
           <UnderLineAnimationtext>
             <h1>

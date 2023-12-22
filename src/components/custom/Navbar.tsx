@@ -7,15 +7,12 @@ const ThemeToggler = dynamic(() => import('./ThemeToggler'), { ssr: false })
 
 const Navbar = () => {
   return (
-    <>
-      {/* <Cursor /> */}
-      <div className='w-full navbar fixed left-0 top-0 px-5 py-4 flex items-center justify-between z-40 '>
-        <Link href={'https://www.instagram.com/debargha6203/'}>
-          <Image src={insta} alt='instagram' height={20} />
-        </Link>
-        <ThemeToggler />
-      </div>
-    </>
+    <div className='w-full navbar fixed left-0 top-0 px-5 py-4 flex items-center justify-between z-40 '>
+      <Link href={'https://www.instagram.com/debargha6203/'}>
+        <Image src={insta} alt='instagram' height={20} />
+      </Link>
+      <ThemeToggler />
+    </div>
   )
 }
 
