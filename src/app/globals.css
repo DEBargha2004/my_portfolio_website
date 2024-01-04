@@ -142,6 +142,11 @@ h1::selection {
   color: white;
 }
 
+div::selection{
+  color: white;
+  background-color: rgb(255, 52, 86);
+}
+
 .testimonials::-webkit-scrollbar {
   display: none;
 }

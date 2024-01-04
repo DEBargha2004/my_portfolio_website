@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Debargha Saha - ReactJS Developer
 
-First, run the development server:
+## Summary
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Experienced ReactJS developer proficient in frontend development, with additional expertise in backend technologies and SQL databases. Skilled in building production-ready applications and contributing to commercially used projects.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Skills
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend Development:** ReactJS, JavaScript, HTML, CSS, Typescript, Redux
+- **Backend Technologies:** Express js
+- **Fullstack Technologies** Next js
+- **Databases:** SQL
+- **Project Management:** Experience in delivering production builds
+- **Problem-Solving:** Ability to troubleshoot and resolve complex issues
+- **Team Collaboration:** Effective communication and teamwork skills
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Experience
 
-## Learn More
+### ReactJS Developer 
 
-To learn more about Next.js, take a look at the following resources:
+- Developed and maintained frontend applications using ReactJS.
+- Collaborated with backend teams to integrate frontend with server-side logic using Next js.
+- Contributed to the architecture and design of commercial-grade applications.
+- Implemented efficient UI/UX solutions to enhance user experience.
+- Troubleshooted and resolved technical issues during development phases.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Backend and Database Experience
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Integrated SQL database with frontend applications built with react and next js
+- Highlight your contributions and achievements in those areas.
 
-## Deploy on Vercel
+## Projects
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Social Media & Chat App
+- **GitHub:** [Repository](https://github.com/DEBargha2004/next-chat-fixed)
+- **Website:** [Live Demo](https://next-chat-sable.vercel.app/)
+- **Description:** 
+  This is a social media and chat application resembling Instagram. Users can upload posts, like, comment, share, send direct messages, create groups, manage admins, and more.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Paint
+- **GitHub:** [Repository](https://github.com/DEBargha2004/paint)
+- **Website:** [Live Demo](https://slotiad-paint.netlify.app/)
+- **Description:** 
+  A paint application allowing users to draw, write text, insert images, fill colors, add multiple slides, and features undo and redo functionality.
+
+### Event Management (Client)
+- **Website:** [Live Demo](https://client-event-management.vercel.app/)
+- **Description:** 
+  Client-side of an event management project where users can select food, occasion date, make orders, and manage them.
+
+### Event Management (Admin)
+- **Website:** [Live Demo](https://admin-event-management.vercel.app/)
+- **Description:** 
+  Admin panel for the event management project enabling management and editing of orders.
+
+### E-Commerce
+- **GitHub:** [Repository](https://github.com/DEBargha2004)
+- **Website:** [Live Demo](https://next-ecommerce-kappa-one.vercel.app/)
+- **Description:** 
+  An e-commerce app with Next.js handling payments via Stripe, using Firebase for storage, and Clerk for authentication.
+
+### PDF Chatbot
+- **GitHub:** [Repository](https://github.com/DEBargha2004/pdfchatbot)
+- **Description:** 
+  A PDF chatbot supporting conversations within a given PDF context, with Stripe subscriptions and Clerk authentication.
+
+### DALL-E Clone
+- **GitHub:** [Repository](https://github.com/DEBargha2004/Dalle-clone)
+- **Description:** 
+  An AI-powered app integrated with OpenAI API and MySQL, managed through React and Material UI, supporting infinite scrolling and skeleton loader.
+
+### Twistflix
+- **GitHub:** [Repository](https://github.com/DEBargha2004/Twistflix)
+- **Website:** [Live Demo](https://gleeful-semifreddo-feef56.netlify.app/)
+- **Description:** 
+  A Netflix clone supporting movie/series trailers, search functionality, and personalized content based on location.
+
+### Drawer
+- **GitHub:** [Repository](https://github.com/DEBargha2004/Backup)
+- **Description:** 
+  A cloud storage platform allowing users to store images, videos, texts, and PDF files with authentication and OTP handling for password changes.
+
+### Chartpedia
+- **GitHub:** [Repository](https://github.com/DEBargha2004/Chartpedia)
+- **Website:** [Live Demo](https://idyllic-seahorse-db0098.netlify.app/)
+- **Description:** 
+  A chart application featuring up to 26 chart types and the ability to create and visualize custom data.
+
+### Calculator
+- **GitHub:** [Repository](https://github.com/DEBargha2004/vite-calculator)
+- **Website:** [Live Demo](https://resilient-bavarois-e54d9c.netlify.app/)
+- **Description:** 
+  A fully functional calculator application made using React and Vite.
+
+### Solar System 3D
+
+- **GitHub:** [Repository](https://github.com/DEBargha2004/solar_system)
+- **Website:** [Live Demo](https://peppy-dolphin-afeba3.netlify.app/)
+- **Description:** 
+  A 3D application built using Three.js to visualize the solar system.
+
+### Localneed
+
+- **GitHub:** [Repository](https://github.com/DEBargha2004/localneed_final)
+- **Website:** [Live Demo](https://deluxe-cuchufli-6e43bd.netlify.app/)
+- **Description:** 
+  A web interface for a local need company.
+
+## Education
+
+- Currently pursuing Bachelors degree in IT
+
+## Contact
+
+- [Email](mailto:debarghasaha16@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/debargha-saha-07b738192/)
+- [GitHub](https://github.com/DEBargha2004)
